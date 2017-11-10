@@ -1,5 +1,5 @@
 class dev_machine::install (
-  Arryay $pkg_list = $::dev_machine::pkg_list,
+  Array $pkg_list = $::dev_machine::pkg_list,
   ) {
 
   package { 'Installing required packages':
