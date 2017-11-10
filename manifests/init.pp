@@ -1,5 +1,5 @@
 class dev_machine (
-  String $pkg_list = $::dev_machine::params::pkg_list,
+  Array $pkg_list = $::dev_machine::params::pkg_list,
 ) inherits ::dev_machine::params 
 
 {
